@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class xyz {
 
     static int naturalCompare(String a, String b) {
 
@@ -58,7 +58,7 @@ public class Main {
             "file3"
         };
 
-        Arrays.sort(arr, Main::naturalCompare);
+        Arrays.sort(arr, xyz::naturalCompare);
 
         for (String s : arr) {
             System.out.println(s);
